@@ -5,4 +5,4 @@ Mainly in c++
 ## Content
 
 ### Data Structures 
-- [Segment Tree](data_strucutres/segment_tree))
+- [Segment Tree](data_strucutres/segment_tree)
