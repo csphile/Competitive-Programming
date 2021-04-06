@@ -1,7 +1,7 @@
 // floyd warshall algorithm
-construct r[][] to be the weighted graph
-r[i][j] = infinity if there is no i->j edge;
-r[i][i] = 0 for each i;
+// construct r[][] to be the weighted graph
+// r[i][j] = infinity if there is no i->j edge;
+// r[i][i] = 0 for each i;
 
 for(k=0; k<n; k++) 
 	for(i=0; i<n; i++) 
