@@ -56,7 +56,7 @@ class SegmentTree
 };
 ```
 
-## Application 
+## Applications 
 
 [Skyline Photo](https://codeforces.com/problemset/problem/1482/E)     
 [Solution](../../previous_contest/CF/round709_E.cpp)
