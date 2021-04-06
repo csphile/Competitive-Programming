@@ -7,4 +7,4 @@ Mainly in c++
 ### Data Structures 
 
 #### Trees
-- [Segment Tree](data_strucutres/segment_tree/README.md)
+- [Segment Tree](data_strucutres/segment_tree)
