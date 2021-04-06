@@ -5,4 +5,6 @@ Mainly in c++
 ## Content
 
 ### Data Structures 
-- [Segment Tree](data_strucutres/segment_tree)
+
+#### Trees
+- [Segment Tree](data_strucutres/segment_tree/README.md)
