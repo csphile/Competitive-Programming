@@ -58,5 +58,5 @@ class SegmentTree
 
 ## Application 
 
-[Skyline Photo](https://codeforces.com/problemset/problem/1482/E)
-[Solution](previous_contest/CF/round709_E.cpp)
+[Skyline Photo](https://codeforces.com/problemset/problem/1482/E)     
+[Solution](../../previous_contest/CF/round709_E.cpp)
