@@ -3,7 +3,10 @@ Collection of some useful algorithms for competitive programming.
 Mainly in c++ 
 
 ## Content
-### Data Structures 
+### Data Structures
+#### Brute Force
+- [Back Tracking](brute_force/README.md)
+
 #### Trees
 - [Segment Tree](data_structures/segment_tree)
 - [Fenwick Tree](data_structures/fenwick_tree)
@@ -20,3 +23,4 @@ Mainly in c++
 #### String Processing 
 - [Prefix function Knuth–Morris–Pratt](string_processing/kmp.cpp)
 - [Manacher's Algorithm](string_processing/manacher.h)
+

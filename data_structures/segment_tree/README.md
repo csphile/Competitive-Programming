@@ -21,6 +21,42 @@ int build(int node, int left, int right) {
     return segmentTree[node] = (arr[leftIdx] <= arr[rightIdx]) ? leftIdx : rightIdx;
 }
 ```
-This will use approximately 4*n memory where n is the original size of the array. We can do better 
+简单来说，假如要储存长度为n的数组，根节点则储存线段`[0, n + 1)`（左闭右开）。对所有节点的子结点，都把父节点对半分开，树叶上就是原数组。    
+内存占用：`4*n`     
 
-Method 2: 
+Method 2: Bottom up    
+此情况下，`b += n, e += n` 得到树叶节点，再往上查找     
+
+```c++
+template <typename T>
+class SegmentTree
+{
+	static T unit = INT_MIN; 
+	T f(T a, T b) {return max(a, b); }
+	vector<T> data;
+	int n; 
+	SegmentTree(int n = 0, T def = unit): data(2*n, def), n(n){}
+	void update(int pos, T val){
+		for (data[pos += n] = val; pos /= 2; )
+			data[pos] = f(data[pos*2], data[pos*2 + 1]); 
+	}
+	T query(int b, int e){
+		// [b, e)
+		b += n; 
+		e += n; 
+		T ra = unit, rb = unit; 
+		for (; b < e; b /= 2, e /= 2){
+			if (b&1)
+				ra = f(ra, data[b++]); 
+			if (e&1)
+				rb = f(data[--e], rb); 
+		}
+		return f(ra, rb); 
+	}
+};
+```
+
+## Application 
+
+[Skyline Photo](https://codeforces.com/problemset/problem/1482/E)
+[Solution](previous_contest/CF/round709_E.cpp)
