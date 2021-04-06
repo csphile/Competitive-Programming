@@ -1,2 +1,0 @@
-- name: Generate & update markdown content
-  uses: muesli/readme-scribe@v0.1
