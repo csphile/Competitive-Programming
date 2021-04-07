@@ -1,11 +1,14 @@
-# Competitve Programming 
+# Competitive Programming 
 Collection of some useful algorithms for competitive programming. 
 Mainly in c++ 
 
 ## Content
 
 ### Brute Force
-- [Back Tracking](brute_force/README.md)
+[Brute Force && Bitwise Operations](brute_force/README.md)
+
+### Dynamic Programming
+// Todo 
 
 ### Data Structures
 #### Trees
