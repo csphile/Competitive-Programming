@@ -8,7 +8,7 @@ Mainly in c++
 [Brute Force && Bitwise Operations](brute_force/README.md)
 
 ### Dynamic Programming
-// Todo 
+- [Dynamic Programming](dynamic_programming/README.md)
 
 ### Data Structures
 #### Trees
