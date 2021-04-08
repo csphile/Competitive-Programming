@@ -47,6 +47,7 @@ struct Node {
   }
 };
 
+// Method 2: 
 Node* build(int a, int b) {
   Node* ret = new Node();
   ret->sum = 0;
