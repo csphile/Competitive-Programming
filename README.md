@@ -7,6 +7,8 @@ Mainly in c++
 ### Brute Force
 [Brute Force && Bitwise Operations](brute_force/README.md)
 
+### Sorting and Searching 
+
 ### Dynamic Programming
 - [Dynamic Programming](dynamic_programming/README.md)
 
