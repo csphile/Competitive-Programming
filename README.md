@@ -1,5 +1,5 @@
 # Competitive Programming 
-Collection of some useful algorithms for competitive programming. 
+Collection of some useful algorithms for competitive programming.    
 Mainly in c++ 
 
 ## Content
@@ -19,7 +19,7 @@ Mainly in c++
 - [Order Statistic Tree](data_structures/pd_bs_tree_order_statistic.cpp)
 
 #### Monotonic Queues && Stack
-
+- []()
 
 ### Graph 
 - [Shortest Path](graph/shortest_path/README.md)
@@ -32,4 +32,3 @@ Mainly in c++
 ### String Processing 
 - [Prefix function Knuth–Morris–Pratt](string_processing/kmp.cpp)
 - [Manacher's Algorithm](string_processing/manacher.h)
-
